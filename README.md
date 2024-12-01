@@ -1,8 +1,8 @@
 # Logbook2025
-A logbook for 2025
+## A learning logbook for 2025
 
 
-1/12/24
+### 1/12/24
 
 Yes - starting 2025 early!
 
