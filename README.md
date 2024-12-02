@@ -47,3 +47,7 @@ By default modern browsers don't allow frontend clients to talk to REST APIs - t
 To circumvent this we can enable CORS checking. The CORS package provides and Express middleware that can enable CORS.
 
 #### The DOTENV dependency loads environmental variables from the process.env  file instead of setting environment variables on our development machne  which simplifies development.
+
+******************************************************************
+--------------------Do a back-end review--------------------------
+******************************************************************
