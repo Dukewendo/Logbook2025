@@ -30,3 +30,9 @@ NoSQL databases in contrast are often called non-relational databases. They're a
 The architecture of MongoDB is a NoSQL database which stores info in the form of collections and documents. MongoDB stores one or more collections. A collection represents
 a single entity for example in an e-commerce app we need entities like categories, users, products etc. 
 Each of these entities would be a single collection in the DB.
+
+In MongoDB, a collection contains documents. A document is an instance of the entity containing the various 
+relevant field values to represent the document.
+
+E.G a product document will contain 'title', 'decription' and 'price' fields. 
+Each field is a key-value pair e.g prce: 26, title: "Learning Node"
