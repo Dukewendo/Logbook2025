@@ -13,8 +13,8 @@ https://www.youtube.com/watch?v=DaeEKKSpgXU
 $1,000,000 Design portfolios
 
 
-Review M.E.R.N stack development
-Mongo DB, Express, React, Node
+# Review M.E.R.N stack development
+# Mongo DB, Express, React, Node
 
 Most of the backend is made - but this needs reviwing for understanding.
 
