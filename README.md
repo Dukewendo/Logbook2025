@@ -19,3 +19,14 @@ Mongo DB, Express, React, Node
 Most of the backend is made - but this needs reviwing for understanding.
 
 Next step is the React Front-End
+
+
+### 2/12/24
+
+MongoDB is a NoSQL database.  Rational databases are generally controlled with SQL (Structured Query Language) Popular ones include MySQL, SQL Server and PostgreSQL.
+
+NoSQL databases in contrast are often called non-relational databases. They're a database not structured like a spreadsheet - i.e less rigid than an SQL databse.
+
+The architecture of MongoDB is a NoSQL database which stores info in the form of collections and documents. MongoDB stores one or more collections. A collection represents
+a single entity for example in an e-commerce app we need entities like categories, users, products etc. 
+Each of these entities would be a single collection in the DB.
