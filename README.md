@@ -57,9 +57,14 @@ To circumvent this we can enable CORS checking. The CORS package provides and Ex
 Back end review- 
 
 Import express and cors middleware.
-Create the server with const app = express()
-Attach the middleware - app.use(cors())
-                        app.use(express.json())
+Create the server with;
+
+const app = express()
+
+Attach the middleware;
+
+ app.use(cors())
+ app.use(express.json())
 
 express.json is the middleware to enable the server to read and accept JSON in a request.
 
@@ -69,5 +74,11 @@ app.use("/api/v1/movies", movies)
 app.use('*', (req,res) => {
  res.status(404).json({error: "not found"})
 })
+
+## Store the environment variables
+
+This is stored int he .env file and a link in index.js to this file.
+
+
 
 
