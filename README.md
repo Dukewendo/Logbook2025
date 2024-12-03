@@ -79,6 +79,20 @@ app.use('*', (req,res) => {
 
 This is stored int he .env file and a link in index.js to this file.
 
+## Create our first route
 
+import express from 'express';
+const router = express.Router()
+router.route('/').get((req, res) => res.send('hello world'))
+
+export default router
+
+## Creating Movies Data Access Object
+
+This will allow our code to access movies in our database.
+
+## Create the Movies Controller
+
+Create the movies controller that the route file will use to access the doa file.
 
 
