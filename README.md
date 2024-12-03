@@ -21,7 +21,7 @@ Most of the backend is made - but this needs reviwing for understanding.
 Next step is the React Front-End
 
 
-### 2/12/24
+###                                                             ---------------------------------------------------- 2/12/24 ---------------------------------------------------
 
 #### MongoDB is a NoSQL database.  Rational databases are generally controlled with SQL (Structured Query Language) Popular ones include MySQL, SQL Server and PostgreSQL.
 
@@ -51,3 +51,23 @@ To circumvent this we can enable CORS checking. The CORS package provides and Ex
 ******************************************************************
 --------------------Do a back-end review--------------------------
 ******************************************************************
+
+###                                                                ---------------------------------------------------- 3/12/24 ---------------------------------------------------
+
+Back end review- 
+
+Import express and cors middleware.
+Create the server with const app = express()
+Attach the middleware - app.use(cors())
+                        app.use(express.json())
+
+express.json is the middleware to enable the server to read and accept JSON in a request.
+
+the initial route is;
+
+app.use("/api/v1/movies", movies)
+app.use('*', (req,res) => {
+ res.status(404).json({error: "not found"})
+})
+
+
