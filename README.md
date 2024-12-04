@@ -106,4 +106,33 @@ Using post, put and delete - post to create a new review, put for editing and de
 
 Create the reviews.controller.js
 
+## Test the reviews API
+
+http://localhost:5000/api/v1/movies
+
+Using one of the id - 
+
+make a post request;
+
+localhost:5000/api/v1/movies/review
+provide a review body;
+
+{
+"movie_id": "573a1390f29313caabcd4135",
+"review": "great movie",
+"user_id": "1234",
+"name": "john"
+}
+
+Test a put and a delete request.
+
+### Create a route to Get a single movie and its ratings
+
+In movies.route.js add two routes apiGetMovieById and apiGetRatings
+
+******************************************************************
+--------------------Back end review end--------------------------
+******************************************************************
+
+Next up - React Front End
 
