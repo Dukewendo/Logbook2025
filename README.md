@@ -95,4 +95,15 @@ This will allow our code to access movies in our database.
 
 Create the movies controller that the route file will use to access the doa file.
 
+## Test the back end API
+http://localhost:5000/api/v1/movies
+
+A JSON return means it works :)
+
+## Leaving Movie reviews
+
+Using post, put and delete - post to create a new review, put for editing and delete for deleting.
+
+Create the reviews.controller.js
+
 
