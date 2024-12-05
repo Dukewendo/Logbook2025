@@ -149,3 +149,13 @@ that help to build user interface components such as menus, sidebars, forms, but
 
 React-router-DOM is also used to route different URLs to different parts of our web app.
 The React-Router library interprets a browser URL as an instruction to navigate to various components.
+
+
+### Create a nav bar
+
+In the components folder we make four new components
+-movies-list.js
+-movie.js
+-add-review.js
+login.js
+
