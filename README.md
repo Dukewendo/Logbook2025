@@ -157,5 +157,5 @@ In the components folder we make four new components
 -movies-list.js
 -movie.js
 -add-review.js
-login.js
+-login.js
 
