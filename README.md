@@ -138,3 +138,8 @@ In movies.route.js add two routes apiGetMovieById and apiGetRatings
 
 Next up - React Front End
 
+###                                                                ---------------------------------------------------- 5/12/24 ---------------------------------------------------
+
+React uses re-usable components a bit like lego - these can be re-used without having to re-write code.
+
+We will use React bootstrap to make the UI look more professional.
