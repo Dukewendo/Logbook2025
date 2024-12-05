@@ -140,6 +140,12 @@ Next up - React Front End
 
 ###                                                                ---------------------------------------------------- 5/12/24 ---------------------------------------------------
 
+### React
+
 React uses re-usable components a bit like lego - these can be re-used without having to re-write code.
 
-We will use React bootstrap to make the UI look more professional.
+We will use React bootstrap to make the UI look more professional - it is a library of re-usable front end componentsthat contain JSX based templates
+that help to build user interface components such as menus, sidebars, forms, buttons and icons etc.
+
+React-router-DOM is also used to route different URLs to different parts of our web app.
+The React-Router library interprets a browser URL as an instruction to navigate to various components.
