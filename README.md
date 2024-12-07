@@ -184,3 +184,7 @@ return (
   </div>
   );
   }
+
+
+Bootstrap has different components that you can use - simply go tot he documentation and copy the markup then update it for your own purposes.
+
