@@ -159,3 +159,28 @@ In the components folder we make four new components
 -add-review.js
 -login.js
 
+###                                                                ---------------------------------------------------- 7/12/24 ---------------------------------------------------
+
+Using a navbar component from bootstrap;
+
+https://react-bootstrap.github.io/components/navbar/
+
+import Nav from 'react-bootstrap/Nav'
+import Navbar from 'react-bootstrap/Navbar'
+
+function App() {
+return (
+<div className ="App">
+ <Navbar bg="light" expand="lg">
+  <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>Navbar.Brand>
+  <Navbar.Toggle aria-controls="basic-navbar-nav">
+   <Navbar.Collapse id="basic-navbar-nav">
+   <Nav className="mr-auto">
+   <Nav.Link href="#home">Home</Nav.Link>Nav.Link>
+   <Nav.Link href="#link">Link</Nav.Link>Nav.Link>
+   </Nav>
+   </Navbar.Collapse>
+  </Navbar>
+  </div>
+  );
+  }
