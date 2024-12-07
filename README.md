@@ -196,10 +196,10 @@ Make the change;
 
 and
 
-**{ user ? (
-<a>Logout User</a>
-) : (
-<Link to={"/login"}>Login</Link>
-)}**
+**{ user ? (**
+**<a>Logout User</a>**
+**) : (**
+**<Link to={"/login"}>Login</Link>**
+**)}**
 
 
