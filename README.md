@@ -186,5 +186,20 @@ return (
   }
 
 
+Bootstrap has different components that you can use - simply go tot he documentation and copy the markup then update it for your own purposes.                                                               
+
 Bootstrap has different components that you can use - simply go tot he documentation and copy the markup then update it for your own purposes.
+
+Make the change;
+
+**<Link to={"/movies"}>Movies</Link>**
+
+and
+
+**{ user ? (
+<a>Logout User</a>
+) : (
+<Link to={"/login"}>Login</Link>
+)}**
+
 
