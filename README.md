@@ -220,3 +220,25 @@ setUser(null)
 }
 
 The hook lets us add some local state to functional components.
+
+### Defining routes
+
+<Switch>
+<Route extract path={["/", "/movies"]} component={MoviesList}>
+</Route>
+ <Route path="/movies/:id/review" render={(props)=>
+  <AddReview  {...props} user={user} />
+   }>
+  </Route>
+
+  <Route path="/movies/:id/" render={(props)=>
+  <Movie  {...props} user={user} />
+   }>
+  </Route>
+
+   <Route path="/login" render={(props)=>
+  <Login  {...props} login={login} />
+   }>
+  </Route>
+
+</Switch>
