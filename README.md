@@ -202,4 +202,21 @@ and
 **<Link to={"/login"}>Login</Link>**
 **)}**
 
+###                                                                ---------------------------------------------------- 8/12/24 ---------------------------------------------------
 
+Above is known as conditional rendering.
+
+We can use a react hook like so;
+
+function App() {
+const [user, setUser] = React.useState(null)
+
+async function login(user = null) {//default user to null
+setUser(user)
+}
+
+async function logout() {
+setUser(null)
+}
+
+The hook lets us add some local state to functional components.
