@@ -242,3 +242,7 @@ The hook lets us add some local state to functional components.
   </Route>
 
 </Switch>
+
+We use a Switch component to switch between different routes. The Switch component renders the first toute that matches.
+
+
