@@ -248,4 +248,6 @@ We use a Switch component to switch between different routes. The Switch compone
 
 ###                                                                ---------------------------------------------------- 9/12/24 ---------------------------------------------------
 
-Catch up on MongoMovies React Frontend
+Catch up on MongoMovies React Frontend.
+Clearing up install of React, adding basic pages to be worked on at a later date.
+
