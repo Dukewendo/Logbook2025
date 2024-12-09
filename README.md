@@ -246,3 +246,6 @@ The hook lets us add some local state to functional components.
 We use a Switch component to switch between different routes. The Switch component renders the first toute that matches.
 
 
+###                                                                ---------------------------------------------------- 9/12/24 ---------------------------------------------------
+
+Catch up on MongoMovies React Frontend
