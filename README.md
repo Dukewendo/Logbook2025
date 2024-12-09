@@ -253,3 +253,41 @@ Clearing up install of React, adding basic pages to be worked on at a later date
 Update install and set routes for pages.
 
 Setting state for log in / log out using the hook React.useState - set to null initially for no user and set to null on logout.
+
+Cleaned up and updated routing code and learned <a> tages cannot be inside Nav.Link components as under the 
+hood Nav.Link in bootstrap is an ,a> tage and they cannot be nested together- using <button> instead of <a>
+as this is better for accessibility.
+
+<Router>
+			<div className="App">
+				<Navbar bg="light" expand="lg">
+					<Navbar.Brand href="#home">Movie Reviews</Navbar.Brand>
+					<Navbar.Toggle aria-controls="basic-navbar-nav" />
+					<Navbar.Collapse id="basic-navbar-nav">
+						<Nav className="mr-auto">
+							<Nav.Link as={Link} to={"/movies"}>
+								Movies
+							</Nav.Link>
+						</Nav>
+					</Navbar.Collapse>
+				</Navbar>
+				{user ? (
+					<Nav.Link as="button" onClick={logout}>
+						Logout User
+					</Nav.Link>
+				) : (
+					<Nav.Link as={Link} to="/login">
+						Login
+					</Nav.Link>
+				)}
+				<Routes>
+					<Route path="/" element={<MoviesList />} />
+					<Route
+						path="/movies/:id/review"
+						element={<AddReview user={user} />}
+					/>
+					<Route path="/movies/:id/" element={<Movie user={user} />} />
+					<Route path="/login" element={<Login login={login} />} />
+				</Routes>
+			</div>
+		</Router>
