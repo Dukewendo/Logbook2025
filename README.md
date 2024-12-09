@@ -258,38 +258,39 @@ Cleaned up and updated routing code and learned <a> tages cannot be inside Nav.L
 hood Nav.Link in bootstrap is an ,a> tage and they cannot be nested together- using <button> instead of <a>
 as this is better for accessibility.
 
-<Router>
-			<div className="App">
-				<Navbar bg="light" expand="lg">
-					<Navbar.Brand href="#home">Movie Reviews</Navbar.Brand>
-					<Navbar.Toggle aria-controls="basic-navbar-nav" />
-					<Navbar.Collapse id="basic-navbar-nav">
-						<Nav className="mr-auto">
-							<Nav.Link as={Link} to={"/movies"}>
-								Movies
-							</Nav.Link>
-						</Nav>
-					</Navbar.Collapse>
-				</Navbar>
-				{user ? (
-					<Nav.Link as="button" onClick={logout}>
-						Logout User
-					</Nav.Link>
-				) : (
-					<Nav.Link as={Link} to="/login">
-						Login
-					</Nav.Link>
-				)}
-				<Routes>
-					<Route path="/" element={<MoviesList />} />
-					<Route
-						path="/movies/:id/review"
-						element={<AddReview user={user} />}
-					/>
-					<Route path="/movies/:id/" element={<Movie user={user} />} />
-					<Route path="/login" element={<Login login={login} />} />
-				</Routes>
-			</div>
-		</Router>
+> <Router>
+>			<div className="App">
+>				<Navbar bg="light" expand="lg">
+>					<Navbar.Brand href="#home">Movie Reviews</Navbar.Brand>
+>					<Navbar.Toggle aria-controls="basic-navbar-nav" />
+>					<Navbar.Collapse id="basic-navbar-nav">
+>						<Nav className="mr-auto">
+>							<Nav.Link as={Link} to={"/movies"}>
+>								Movies
+>							</Nav.Link>
+>						</Nav>
+>					</Navbar.Collapse>
+>				</Navbar>
+>				{user ? (
+>					<Nav.Link as="button" onClick={logout}>
+>						Logout User
+>					</Nav.Link>
+>				) : (
+>					<Nav.Link as={Link} to="/login">
+>						Login
+>					</Nav.Link>
+>				)}
+>				<Routes>
+>					<Route path="/" element={<MoviesList />} />
+>					<Route
+>						path="/movies/:id/review"
+>						element={<AddReview user={user} />}
+>					/>
+>					<Route path="/movies/:id/" element={<Movie user={user} />} />
+>					<Route path="/login" element={<Login login={login} />} />
+>				</Routes>
+>			</div>
+>		</Router>
 
-Up next - ## Connecting front to back!
+Up next - 
+### Connecting front to back!
