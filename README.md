@@ -294,3 +294,6 @@ as this is better for accessibility.
 ```
 Up next - 
 ### Connecting front to back!
+
+We will create a service class. A service is a class with a well-defined specific function. In our case, our service is responsible for taking to the backend to get and save data.
+Service classes provide their functionality to be consumed by components.
