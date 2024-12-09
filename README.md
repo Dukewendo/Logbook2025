@@ -290,7 +290,7 @@ as this is better for accessibility.
 					<Route path="/login" element={<Login login={login} />} />
 				</Routes>
 			</div>
-	</Router>  ```
-
+	</Router>
+```
 Up next - 
 ### Connecting front to back!
