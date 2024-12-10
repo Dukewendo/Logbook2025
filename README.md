@@ -297,3 +297,7 @@ Up next -
 
 We will create a service class. A service is a class with a well-defined specific function. In our case, our service is responsible for taking to the backend to get and save data.
 Service classes provide their functionality to be consumed by components.
+
+###                                                                ---------------------------------------------------- 10/12/24 ---------------------------------------------------
+
+Not has a lot of time this evening- working late then fixing a new oven!
