@@ -339,3 +339,40 @@ Why use Axios?
 
 Axios helps developers make HTTP requests from NodeJS or XMLHttpRequests from a browser. If the request is successful, you will receive a response with the data requested.
 If the request fails, you will get an error. You can also intercept the requests and responses and transform or modify them.
+
+```
+import axios from "axios";
+
+class MovieDataService {
+	getAll(page = 0) {
+		return axios.get(`http://localhost:5000/api/v1/movies?page=${page}`);
+	}
+
+	get(id) {
+		return axios.get(`http://localhost:5000/api/v1/movies/id/${id}`);
+	}
+
+	find(query, by = "title", page = 0) {
+		return axios.get(
+			`http://localhost:5000/api/v1/movies?${by}=${query}&page=${page}`
+		);
+	}
+
+	createReview(data) {
+		return axios.post("http://localhost:5000/api/v1/movies/review", data);
+	}
+	updateReview(data) {
+		return axios.put("http://localhost:5000/api/v1/movies/review", data);
+	}
+	deleteReview(id, userId) {
+		return axios.delete("http://localhost:5000/api/v1/movies/review", {
+			data: { review_id: id, user_id: userId },
+		});
+	}
+	getRatings() {
+		return axios.get("http://localhost:5000/api/v1/movies/ratings");
+	}
+}
+
+export default new MovieDataService();
+```
