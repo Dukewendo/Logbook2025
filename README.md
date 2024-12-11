@@ -305,3 +305,33 @@ Service classes provide their functionality to be consumed by components.
 Not has a lot of time this evening- working late then fixing a new oven!
 
 Create a service to connect fron to back in mongomovies.
+
+###                                                                ---------------------------------------------------- 11/12/24 ---------------------------------------------------
+
+#### https://axios-http.com/docs/intro
+
+A promise based HTTP clien for node.js.
+It is isomorphic - on browser OR node.js
+
+Features:
+
+
+    Make XMLHttpRequests from the browser
+    Make http requests from node.js
+    Supports the Promise API
+    Intercept request and response
+    Transform request and response data
+    Cancel requests
+    Timeouts
+    Query parameters serialization with support for nested entries
+    Automatic request body serialization to:
+        JSON (application/json)
+        Multipart / FormData (multipart/form-data)
+        URL encoded form (application/x-www-form-urlencoded)
+    Posting HTML forms as JSON
+    Automatic JSON data handling in response
+    Progress capturing for browsers and node.js with extra info (speed rate, remaining time)
+    Setting bandwidth limits for node.js
+    Compatible with spec-compliant FormData and Blob (including node.js)
+    Client side support for protecting against XSRF
+
