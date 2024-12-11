@@ -335,3 +335,7 @@ Features:
     Compatible with spec-compliant FormData and Blob (including node.js)
     Client side support for protecting against XSRF
 
+Why use Axios?
+
+Axios helps developers make HTTP requests from NodeJS or XMLHttpRequests from a browser. If the request is successful, you will receive a response with the data requested.
+If the request fails, you will get an error. You can also intercept the requests and responses and transform or modify them.
