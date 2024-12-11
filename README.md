@@ -376,3 +376,7 @@ class MovieDataService {
 
 export default new MovieDataService();
 ```
+getAll returns all movies.
+get(id) returns a specific movie with an id.
+find() is the same endPoint as getAll except it has query which consists of user-entered search.
+createReview, updateReview, deleteReview and getRatings are self-explanitory.
