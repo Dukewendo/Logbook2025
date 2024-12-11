@@ -300,4 +300,8 @@ Service classes provide their functionality to be consumed by components.
 
 ###                                                                ---------------------------------------------------- 10/12/24 ---------------------------------------------------
 
+
+
 Not has a lot of time this evening- working late then fixing a new oven!
+
+Create a service to connect fron to back in mongomovies.
