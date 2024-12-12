@@ -380,3 +380,10 @@ getAll returns all movies.
 get(id) returns a specific movie with an id.
 find() is the same endPoint as getAll except it has query which consists of user-entered search.
 createReview, updateReview, deleteReview and getRatings are self-explanitory.
+
+---------------------------------------------------- 12/12/24 ---------------------------------------------------
+
+Implimenting MoviesList component to consume the functionality in MovieDataService.
+Components are meant to be responsible for rendering view supported by application logic for better UX.
+
+
