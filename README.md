@@ -386,4 +386,6 @@ createReview, updateReview, deleteReview and getRatings are self-explanitory.
 Implimenting MoviesList component to consume the functionality in MovieDataService.
 Components are meant to be responsible for rendering view supported by application logic for better UX.
 
+Added useState hook for movies, searchTitle, searchRating and ratings.
 
+The useEffect hook is called after rendering. An empty array is provided [] as we only want useEffect to be called once when the component first renders.
