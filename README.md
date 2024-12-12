@@ -389,3 +389,6 @@ Components are meant to be responsible for rendering view supported by applicati
 Added useState hook for movies, searchTitle, searchRating and ratings.
 
 The useEffect hook is called after rendering. An empty array is provided [] as we only want useEffect to be called once when the component first renders.
+
+
+Next - creating a search form...... tomorrow!
