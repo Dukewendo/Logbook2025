@@ -381,7 +381,7 @@ get(id) returns a specific movie with an id.
 find() is the same endPoint as getAll except it has query which consists of user-entered search.
 createReview, updateReview, deleteReview and getRatings are self-explanitory.
 
----------------------------------------------------- 12/12/24 ---------------------------------------------------
+###                                                               ---------------------------------------------------- 12/12/24 ---------------------------------------------------
 
 Implimenting MoviesList component to consume the functionality in MovieDataService.
 Components are meant to be responsible for rendering view supported by application logic for better UX.
@@ -393,9 +393,18 @@ The useEffect hook is called after rendering. An empty array is provided [] as w
 
 Next - creating a search form...... tomorrow!
 
----------------------------------------------------- 13/12/24 ---------------------------------------------------
+###                                                               ---------------------------------------------------- 13/12/24 ---------------------------------------------------
 
 onChangeSearchTitle will be called whenever a user types into the search title field.
 onChangeSearchTitle will then take the entered value and set it to the component state.
 
 Getting late - more tomrrow!
+
+###                                                             ---------------------------------------------------- 2/12/24 ---------------------------------------------------
+
+Importing bootstrap components for the form as so;
+import Form from "react-bootstrap/Form";
+import Button from "react-bootstrap/Button";
+import Col from "react-bootstrap/Col";
+import Row from "react-bootstrap/Row";
+import Container from "react-bootstrap/Container";
