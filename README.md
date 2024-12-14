@@ -402,9 +402,16 @@ Getting late - more tomrrow!
 
 ###                                                             ---------------------------------------------------- 2/12/24 ---------------------------------------------------
 
-Importing bootstrap components for the form as so;
+```Importing bootstrap components for the form as so;
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import Container from "react-bootstrap/Container";
+```
+
+Making a simple react search formwith a seach by title field and a search by ratings.
+
+Tomorrow we display movies using cards.
+
+
