@@ -392,3 +392,10 @@ The useEffect hook is called after rendering. An empty array is provided [] as w
 
 
 Next - creating a search form...... tomorrow!
+
+---------------------------------------------------- 13/12/24 ---------------------------------------------------
+
+onChangeSearchTitle will be called whenever a user types into the search title field.
+onChangeSearchTitle will then take the entered value and set it to the component state.
+
+Getting late - more tomrrow!
