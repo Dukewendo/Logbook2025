@@ -400,7 +400,7 @@ onChangeSearchTitle will then take the entered value and set it to the component
 
 Getting late - more tomrrow!
 
-###                                                             ---------------------------------------------------- 2/12/24 ---------------------------------------------------
+###                                                             ---------------------------------------------------- 14/12/24 ---------------------------------------------------
 
 ```Importing bootstrap components for the form as so;
 import Form from "react-bootstrap/Form";
@@ -414,4 +414,63 @@ Making a simple react search formwith a seach by title field and a search by rat
 
 Tomorrow we display movies using cards.
 
+###                                                             ---------------------------------------------------- 15/12/24 ---------------------------------------------------
 
+Adding front end for card using bootstrap components;
+
+```
+import Card from "react-bootstrap/Card";
+return (
+	<div className="App">
+		<Container>
+			<Form>
+				<Row>
+					<Col>
+						<Form.Group>
+							<Form.Control
+								type="text"
+								placeholder="Search by title"
+								value="{searchTitle}
+						onChange={onChangeSearchTitle}"
+							></Form.Control>
+						</Form.Group>
+						<Button variant="primary" type="button" onClick={findByTitle}>
+							Search
+						</Button>
+					</Col>
+					<Col>
+						<Form.Group>
+							<Form.Control as="select" onChange={onChangeSearchRating}>
+								{" "}
+								{rating.map((rating) => {
+									return <option value={rating}> {rating}</option>;
+								})}
+							</Form.Control>
+						</Form.Group>
+						<Button variant="primary" type="button" onClick={findByRating}>
+							Search
+						</Button>
+					</Col>
+				</Row>
+			</Form>
+			<Row>
+				{movies.map((movie) => {
+					return (
+						<Col>
+							<Card style={{ width: "18rem" }}>
+								<Card.Img src={movie.poster + "/100px180"} />
+								<Card.Body>
+									<Card.title>{movie.title}</Card.title>
+									<Card.Text>Rating: {movie.rated}</Card.Text>
+									<Link to={"/movies/" + movie._id}> View Reviews </Link>
+								</Card.Body>
+							</Card>
+						</Col>
+					);
+				})}
+			</Row>
+		</Container>
+	</div>
+);
+
+```
