@@ -474,3 +474,8 @@ return (
 );
 
 ```
+###                                                             ---------------------------------------------------- 16/12/24 ---------------------------------------------------
+
+Not doing much tonight but watched bootstrap video here;
+
+https://www.youtube.com/watch?v=8pKjULHzs0s
