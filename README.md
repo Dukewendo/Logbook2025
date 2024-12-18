@@ -485,4 +485,8 @@ https://www.youtube.com/watch?v=8pKjULHzs0s
 
 Implimenting findByTitle and findByRating functions.
 
+###                                                             ---------------------------------------------------- 18/12/24 ---------------------------------------------------
+
+No much time tonight so reviewing front end so far.
+
 
