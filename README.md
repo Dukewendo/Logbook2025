@@ -489,4 +489,6 @@ Implimenting findByTitle and findByRating functions.
 
 No much time tonight so reviewing front end so far.
 
+###                                                             ---------------------------------------------------- 19/12/24 ---------------------------------------------------
 
+App testing...
