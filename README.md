@@ -502,4 +502,16 @@ More bug fixing;
 src/components/movies-list.js
   Line 19:1:    React Hook "useEffect" cannot be called at the top level. React Hooks must be called in a React function component or a custom React Hook function  react-hooks/rules-of-hooks
 ```
+and
+
+```
+[eslint] 
+src/components/movies-list.js
+  Line 37:17:   'resonse' is not defined      no-undef
+  Line 73:9:    'searchRaing' is not defined  no-undef
+  Line 97:12:   'rating' is not defined       no-undef
+  Line 130:16:  'App' is not defined          no-undef
+```
+
+late night codeing after work - i need to be checking spellings!
 
