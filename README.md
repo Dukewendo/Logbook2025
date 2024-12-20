@@ -492,3 +492,14 @@ No much time tonight so reviewing front end so far.
 ###                                                             ---------------------------------------------------- 19/12/24 ---------------------------------------------------
 
 App testing...
+
+###                                                             ---------------------------------------------------- 20/12/24 ---------------------------------------------------
+
+More bug fixing;
+
+```
+[eslint] 
+src/components/movies-list.js
+  Line 19:1:    React Hook "useEffect" cannot be called at the top level. React Hooks must be called in a React function component or a custom React Hook function  react-hooks/rules-of-hooks
+```
+
