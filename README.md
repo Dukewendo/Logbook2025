@@ -516,3 +516,8 @@ src/components/movies-list.js
 late night codeing after work - i need to be checking spellings!
 
 Tomorrow -Bugfix the search component.
+
+###                                                             ---------------------------------------------------- 22/12/24 ---------------------------------------------------
+
+Front page is not displaying the search component correctly.
+I will investigate why...
