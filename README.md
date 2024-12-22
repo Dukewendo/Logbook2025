@@ -526,3 +526,10 @@ I will investigate why...
 No routes matched location "/movies" 2 history.ts:501
 No routes matched location "/movies#home" 
 ```
+Need to look at routes for the bug- The App is not correctly switching screens and the main route "/" gives a cors error;
+
+```
+Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at http://localhost:5000/api/v1/movies?page=0. (Reason: CORS request did not succeed). Status code: (null).
+```
+
+So will need to check this is correctly set up.
