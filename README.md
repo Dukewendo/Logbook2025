@@ -521,3 +521,8 @@ Tomorrow -Bugfix the search component.
 
 Front page is not displaying the search component correctly.
 I will investigate why...
+
+```
+No routes matched location "/movies" 2 history.ts:501
+No routes matched location "/movies#home" 
+```
