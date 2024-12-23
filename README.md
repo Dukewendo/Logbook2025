@@ -533,3 +533,11 @@ Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remot
 ```
 
 So will need to check this is correctly set up.
+
+###                                                             ---------------------------------------------------- 23/12/24 ---------------------------------------------------
+
+```
+
+Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at http://localhost:5000/api/v1/movies?page=0. (Reason: CORS request did not succeed). Status code: (null)
+```
+
