@@ -541,3 +541,16 @@ So will need to check this is correctly set up.
 Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at http://localhost:5000/api/v1/movies?page=0. (Reason: CORS request did not succeed). Status code: (null)
 ```
 
+Got some return!
+
+```
+Array(17) [ "AO", "APPROVED", "Approved", "G", "GP", "M", "Not Rated", "OPEN", "PASSED", "PG", … ]
+movies-list.js:37
+Array(17) [ "AO", "APPROVED", "Approved", "G", "GP", "M", "Not Rated", "OPEN", "PASSED", "PG", … ]
+movies-list.js:37
+Object { movies: (20) […], page: 0, filters: {}, entries_per_page: 20, total_results: 21349 }
+movies-list.js:26
+Object { movies: (20) […], page: 0, filters: {}, entries_per_page: 20, total_results: 21349 }
+```
+
+
