@@ -553,4 +553,7 @@ movies-list.js:26
 Object { movies: (20) […], page: 0, filters: {}, entries_per_page: 20, total_results: 21349 }
 ```
 
+###                                                             ---------------------------------------------------- 30/12/24 ---------------------------------------------------
+
+After a short break for the Holidays, back to the project!
 
