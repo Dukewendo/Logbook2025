@@ -557,3 +557,8 @@ Object { movies: (20) […], page: 0, filters: {}, entries_per_page: 20, total_r
 
 After a short break for the Holidays, back to the project!
 
+```
+Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at http://localhost:5000/api/v1/movies?page=0. (Reason: CORS request did not succeed). Status code: (null).
+```
+
+Cross-Origin issue that I need to solve
