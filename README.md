@@ -562,3 +562,13 @@ Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remot
 ```
 
 Cross-Origin issue that I need to solve
+
+ChatGPT suggested;
+```
+app.use(cors({ origin: 'http://localhost:3000' }));
+```
+
+But this is still giving an Axios error;
+```
+message: "Network Error", name: "AxiosError", code: "ERR_NETWORK", config: {…}, request: XMLHttpRequest }
+```
