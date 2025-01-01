@@ -590,3 +590,5 @@ const corsOptions = {
 app.use(cors(corsOptions));
 ```
 Still getting CORS issues...
+
+Tomorrow check ports - localhost / server is operating on 3000 and 5000
