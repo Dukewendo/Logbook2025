@@ -572,3 +572,9 @@ But this is still giving an Axios error;
 ```
 message: "Network Error", name: "AxiosError", code: "ERR_NETWORK", config: {…}, request: XMLHttpRequest }
 ```
+
+###                                                             ---------------------------------------------------- 1/1/25 ---------------------------------------------------
+
+Happy New Year!
+
+Still bugfixing my way around - is it an Axios issue or someething else I'm missing?
