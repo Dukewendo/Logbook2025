@@ -578,3 +578,15 @@ message: "Network Error", name: "AxiosError", code: "ERR_NETWORK", config: {…}
 Happy New Year!
 
 Still bugfixing my way around - is it an Axios issue or someething else I'm missing?
+
+Tried;
+
+```
+const corsOptions = {
+    origin: "http://localhost:5000/api/v1/movies?page=0",
+    methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
+    credentials: true,
+};
+app.use(cors(corsOptions));
+```
+Still getting CORS issues...
