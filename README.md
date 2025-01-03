@@ -592,3 +592,7 @@ app.use(cors(corsOptions));
 Still getting CORS issues...
 
 Tomorrow check ports - localhost / server is operating on 3000 and 5000
+
+###                                                             ---------------------------------------------------- 3/1/25 ---------------------------------------------------
+
+Front end review tomorrow - the navbar needs work.
