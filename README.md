@@ -600,3 +600,8 @@ Front end review tomorrow - the navbar needs work.
 ###                                                             ---------------------------------------------------- 6/1/25 ---------------------------------------------------
 
 More work on the front end.. Navbar needs to contain more options and cards display.
+
+Changes made to navbar- need to check routes set up correctly -
+```
+No routes matched location "/movies" 
+```
