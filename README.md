@@ -610,3 +610,6 @@ No routes matched location "/movies"
 
 Navbar log in fix - it's showing a "\" character and this is not in the code.
 It also needs flex changes as the menu items are spreaad too far!
+
+Working on movie.js
+
