@@ -605,3 +605,8 @@ Changes made to navbar- need to check routes set up correctly -
 ```
 No routes matched location "/movies" 
 ```
+
+###                                                             ---------------------------------------------------- 11/1/25 ---------------------------------------------------
+
+Navbar log in fix - it's showing a "\" character and this is not in the code.
+It also needs flex changes as the menu items are spreaad too far!
