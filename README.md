@@ -626,3 +626,5 @@ https://thoughts.melonking.net/guides/introduction-to-the-web-revival-1-what-is-
 ###                                                             ---------------------------------------------------- 26/1/25 ---------------------------------------------------
 
 Some house cleaning - deleted some un-used React files...
+
+added movie.js in components
