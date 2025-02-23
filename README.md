@@ -631,4 +631,9 @@ added movie.js in components
 
 ###                                                             ---------------------------------------------------- 3/2/25 ---------------------------------------------------
 
-Working on cards in movie.js
+Working on cards in movie.js 
+                                                                 ---------------------------------------------------- 23/2/25 ---------------------------------------------------
+
+Watched https://www.youtube.com/watch?v=U8L_KOQmDj4 - Discussion on frongtend frameworks between two experts.
+
+
