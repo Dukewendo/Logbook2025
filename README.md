@@ -641,3 +641,7 @@ Watched https://www.youtube.com/watch?v=U8L_KOQmDj4 - Discussion on frongtend fr
 Going over basics:
 https://www.youtube.com/watch?v=BI1o2H9z9fo&t=11366s
 
+                                                                      ---------------------------------------------------- 23/2/25 ---------------------------------------------------
+
+Going over basics x2:
+https://www.youtube.com/watch?v=BI1o2H9z9fo&t=11366s
