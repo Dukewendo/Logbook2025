@@ -645,3 +645,7 @@ https://www.youtube.com/watch?v=BI1o2H9z9fo&t=11366s
 
 Going over basics x2:
 https://www.youtube.com/watch?v=BI1o2H9z9fo&t=11366s
+                                                                       ---------------------------------------------------- 27/2/25 ---------------------------------------------------
+
+More of the same tonight  going over some basics
+https://www.youtube.com/watch?v=BI1o2H9z9fo&t=274s
