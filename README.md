@@ -649,3 +649,7 @@ https://www.youtube.com/watch?v=BI1o2H9z9fo&t=11366s
 
 More of the same tonight  going over some basics
 https://www.youtube.com/watch?v=BI1o2H9z9fo&t=274s
+                                                                       ---------------------------------------------------- 10/3/25 ---------------------------------------------------
+
+Just spending some time revising basics
+https://www.youtube.com/watch?v=BI1o2H9z9fo&t=3038s
