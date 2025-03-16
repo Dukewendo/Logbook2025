@@ -653,3 +653,9 @@ https://www.youtube.com/watch?v=BI1o2H9z9fo&t=274s
 
 Just spending some time revising basics
 https://www.youtube.com/watch?v=BI1o2H9z9fo&t=3038s
+
+---------------------------------------------------- 16/3/25 ---------------------------------------------------
+
+
+Set up laptop and equipment upstairs to code on!
+More news later.
