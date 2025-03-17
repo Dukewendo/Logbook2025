@@ -659,3 +659,8 @@ https://www.youtube.com/watch?v=BI1o2H9z9fo&t=3038s
 
 Set up laptop and equipment upstairs to code on!
 More news later.
+
+---------------------------------------------------- 17/3/25 ---------------------------------------------------
+
+Made a quick Python script to sort our baby photos and videos into categories and as a backup saved on 2 external HDD and my main PC- 
+Ordered a refurbished i5 and external HDD as an aleternative PC.
